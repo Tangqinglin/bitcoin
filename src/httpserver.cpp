@@ -9,7 +9,7 @@
 #include <util.h>
 #include <utilstrencodings.h>
 #include <netbase.h>
-#include <rpc/protocol.h> // For HTTP status codes
+#include <rpc/protocol2.h> // For HTTP status codes
 #include <sync.h>
 #include <ui_interface.h>
 

@@ -2425,30 +2425,32 @@ void CConnman::Interrupt()
 
 void CConnman::Stop()
 {
-    if (threadMessageHandler.joinable())
-        threadMessageHandler.join();
-    if (threadOpenConnections.joinable())
-        threadOpenConnections.join();
-    if (threadOpenAddedConnections.joinable())
-        threadOpenAddedConnections.join();
-    if (threadDNSAddressSeed.joinable())
-        threadDNSAddressSeed.join();
-    if (threadSocketHandler.joinable())
-        threadSocketHandler.join();
+	if (threadMessageHandler.joinable())
+		threadMessageHandler.join();
+	if (threadOpenConnections.joinable())
+		threadOpenConnections.join();
+	if (threadOpenAddedConnections.joinable())
+		threadOpenAddedConnections.join();
+	if (threadDNSAddressSeed.joinable())
+		threadDNSAddressSeed.join();
+	if (threadSocketHandler.joinable())
+		threadSocketHandler.join();
 
-    if (fAddressesInitialized)
-    {
-        DumpData();
-        fAddressesInitialized = false;
-    }
+	if (fAddressesInitialized)
+	{
+		DumpData();
+		fAddressesInitialized = false;
+	}
 
-    // Close sockets
-    for (CNode* pnode : vNodes)
-        pnode->CloseSocketDisconnect();
-    for (ListenSocket& hListenSocket : vhListenSocket)
-        if (hListenSocket.socket != INVALID_SOCKET)
-            if (!CloseSocket(hListenSocket.socket))
-                LogPrintf("CloseSocket(hListenSocket) failed with error %s\n", NetworkErrorString(WSAGetLastError()));
+	// Close sockets
+	for (CNode* pnode : vNodes)
+		pnode->CloseSocketDisconnect();
+	for (ListenSocket& hListenSocket : vhListenSocket)
+		if (hListenSocket.socket != INVALID_SOCKET)
+			if (!CloseSocket(hListenSocket.socket))
+			{
+				LogPrintf("CloseSocket(hListenSocket) failed with error %s\n", NetworkErrorString(WSAGetLastError()));
+			}
 
     // clean up some globals (to help leak detection)
     for (CNode *pnode : vNodes) {

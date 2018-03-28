@@ -19,7 +19,7 @@
 #include <rpc/rawtransaction.h>
 #include <rpc/safemode.h>
 #include <rpc/server.h>
-#include <rpc/util.h>
+#include <rpc/util2.h>
 #include <script/sign.h>
 #include <timedata.h>
 #include <util.h>

@@ -9,7 +9,7 @@
 #include "leveldb/env.h"
 #include "leveldb/filter_policy.h"
 #include "leveldb/options.h"
-#include "table/block.h"
+#include "table/block2.h"
 #include "table/filter_block.h"
 #include "table/format.h"
 #include "table/two_level_iterator.h"
@@ -32,7 +32,7 @@ struct Table::Rep {
   const char* filter_data;
 
   BlockHandle metaindex_handle;  // Handle to metaindex_block: saved from footer
-  Block* index_block;
+  Block2* index_block;
 };
 
 Status Table::Open(const Options& options,
@@ -56,7 +56,7 @@ Status Table::Open(const Options& options,
 
   // Read the index block
   BlockContents contents;
-  Block* index_block = NULL;
+  Block2* index_block = NULL;
   if (s.ok()) {
     ReadOptions opt;
     if (options.paranoid_checks) {
@@ -64,7 +64,7 @@ Status Table::Open(const Options& options,
     }
     s = ReadBlock(file, opt, footer.index_handle(), &contents);
     if (s.ok()) {
-      index_block = new Block(contents);
+      index_block = new Block2(contents);
     }
   }
 
@@ -104,7 +104,7 @@ void Table::ReadMeta(const Footer& footer) {
     // Do not propagate errors since meta info is not needed for operation
     return;
   }
-  Block* meta = new Block(contents);
+  Block2* meta = new Block2(contents);
 
   Iterator* iter = meta->NewIterator(BytewiseComparator());
   std::string key = "filter.";
@@ -145,11 +145,11 @@ Table::~Table() {
 }
 
 static void DeleteBlock(void* arg, void* ignored) {
-  delete reinterpret_cast<Block*>(arg);
+  delete reinterpret_cast<Block2*>(arg);
 }
 
 static void DeleteCachedBlock(const Slice& key, void* value) {
-  Block* block = reinterpret_cast<Block*>(value);
+  Block2* block = reinterpret_cast<Block2*>(value);
   delete block;
 }
 
@@ -166,7 +166,7 @@ Iterator* Table::BlockReader(void* arg,
                              const Slice& index_value) {
   Table* table = reinterpret_cast<Table*>(arg);
   Cache* block_cache = table->rep_->options.block_cache;
-  Block* block = NULL;
+  Block2* block = NULL;
   Cache::Handle* cache_handle = NULL;
 
   BlockHandle handle;
@@ -184,11 +184,11 @@ Iterator* Table::BlockReader(void* arg,
       Slice key(cache_key_buffer, sizeof(cache_key_buffer));
       cache_handle = block_cache->Lookup(key);
       if (cache_handle != NULL) {
-        block = reinterpret_cast<Block*>(block_cache->Value(cache_handle));
+        block = reinterpret_cast<Block2*>(block_cache->Value(cache_handle));
       } else {
         s = ReadBlock(table->rep_->file, options, handle, &contents);
         if (s.ok()) {
-          block = new Block(contents);
+          block = new Block2(contents);
           if (contents.cachable && options.fill_cache) {
             cache_handle = block_cache->Insert(
                 key, block, block->size(), &DeleteCachedBlock);
@@ -198,7 +198,7 @@ Iterator* Table::BlockReader(void* arg,
     } else {
       s = ReadBlock(table->rep_->file, options, handle, &contents);
       if (s.ok()) {
-        block = new Block(contents);
+        block = new Block2(contents);
       }
     }
   }

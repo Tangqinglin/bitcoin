@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoind", "bitcoind.vcxproj", "{639535A0-3CA7-4809-98C0-88EAB9A25152}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-bitcoin", "test\test-bitcoin.vcxproj", "{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-cli", "bitcoin-cli.vcxproj", "{76D1374B-1098-4187-A8C8-EB855D7F6007}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-qt", "qt\bitcoin-qt.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-qt-test", "qt\bitcoin-qt-test.vcxproj", "{9649A999-440C-4984-8FB9-238D74918A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Debug|x64.ActiveCfg = Debug|x64
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Debug|x64.Build.0 = Debug|x64
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Debug|x86.ActiveCfg = Debug|Win32
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Debug|x86.Build.0 = Debug|Win32
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Release|x64.ActiveCfg = Release|x64
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Release|x64.Build.0 = Release|x64
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Release|x86.ActiveCfg = Release|Win32
+		{639535A0-3CA7-4809-98C0-88EAB9A25152}.Release|x86.Build.0 = Release|Win32
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Debug|x64.ActiveCfg = Debug|x64
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Debug|x64.Build.0 = Debug|x64
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Debug|x86.ActiveCfg = Debug|Win32
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Debug|x86.Build.0 = Debug|Win32
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Release|x64.ActiveCfg = Release|x64
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Release|x64.Build.0 = Release|x64
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Release|x86.ActiveCfg = Release|Win32
+		{E24974EE-E230-4A6C-8ADC-4BE8ABD14677}.Release|x86.Build.0 = Release|Win32
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Debug|x64.ActiveCfg = Debug|x64
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Debug|x64.Build.0 = Debug|x64
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Debug|x86.ActiveCfg = Debug|Win32
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Debug|x86.Build.0 = Debug|Win32
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Release|x64.ActiveCfg = Release|x64
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Release|x64.Build.0 = Release|x64
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Release|x86.ActiveCfg = Release|Win32
+		{76D1374B-1098-4187-A8C8-EB855D7F6007}.Release|x86.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Debug|x64.ActiveCfg = Debug|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Debug|x64.Build.0 = Debug|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Debug|x86.ActiveCfg = Debug|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Release|x64.ActiveCfg = Release|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Release|x64.Build.0 = Release|x64
+		{9649A999-440C-4984-8FB9-238D74918A16}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

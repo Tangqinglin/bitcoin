@@ -3,7 +3,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <rpc/protocol.h>
+#include <rpc/protocol2.h>
 
 #include <random.h>
 #include <tinyformat.h>

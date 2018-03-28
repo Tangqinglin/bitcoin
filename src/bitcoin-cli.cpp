@@ -11,7 +11,7 @@
 #include <clientversion.h>
 #include <fs.h>
 #include <rpc/client.h>
-#include <rpc/protocol.h>
+#include <rpc/protocol2.h>
 #include <util.h>
 #include <utilstrencodings.h>
 

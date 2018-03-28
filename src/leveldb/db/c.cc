@@ -5,7 +5,7 @@
 #include "leveldb/c.h"
 
 #include <stdlib.h>
-#include <unistd.h>
+//#include <unistd.h>  //edit by tql for vs2015
 #include "leveldb/cache.h"
 #include "leveldb/comparator.h"
 #include "leveldb/db.h"

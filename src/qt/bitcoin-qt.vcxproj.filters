@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bitcoinqt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinqt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinqt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_bitcoinqt.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addressbookpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addressbookpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addressbookpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="addresstablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addresstablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addresstablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="askpassphrasedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_askpassphrasedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_askpassphrasedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="bantablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bantablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bantablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_bitcoin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_bitcoin_locale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinaddressvalidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinaddressvalidator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinaddressvalidator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinamountfield.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinamountfield.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoingui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoingui.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bitcoingui.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinstrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinunits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinunits.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinunits.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_callback.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_callback.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="clientmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_clientmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_clientmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="coincontroldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_coincontroldialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_coincontroldialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="coincontroltreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_coincontroltreewidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_coincontroltreewidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="csvmodelwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_csvmodelwriter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_csvmodelwriter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="editaddressdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_editaddressdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_editaddressdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="guiutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_guiutil.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_guiutil.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_intro.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_intro.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_macdockiconhandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_macdockiconhandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_macnotificationhandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_macnotificationhandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="modaloverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_modaloverlay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_modaloverlay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="networkstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="notificator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_notificator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_notificator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="openuridialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_openuridialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_openuridialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="optionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_optionsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_optionsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="optionsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_optionsmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_optionsmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_overviewpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_overviewpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentrequestplus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_paymentserver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_paymentserver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="peertablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_peertablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_peertablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="platformstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qvalidatedlineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qvalidatedlineedit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qvalidatedlineedit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qvaluecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qvaluecombobox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qvaluecombobox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="receivecoinsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_receivecoinsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_receivecoinsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="receiverequestdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_receiverequestdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_receiverequestdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="recentrequeststablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_recentrequeststablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_recentrequeststablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rpcconsole.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rpcconsole.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sendcoinsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sendcoinsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sendcoinsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sendcoinsentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sendcoinsentry.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sendcoinsentry.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="signverifymessagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_signverifymessagedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_signverifymessagedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="splashscreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_splashscreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_splashscreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="trafficgraphwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_trafficgraphwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_trafficgraphwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiondesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transactiondesc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transactiondesc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiondescdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transactiondescdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transactiondescdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionfilterproxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transactionfilterproxy.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transactionfilterproxy.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionrecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiontablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transactiontablemodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transactiontablemodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transactionview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transactionview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="utilitydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_utilitydialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_utilitydialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="walletframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_walletframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_walletframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="walletmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_walletmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_walletmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="walletmodeltransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="walletview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_walletview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_walletview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="winshutdownmonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{440bb8de-42bb-4d27-961f-67291edef4ed}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ca08b1b2-eb24-4311-ba8a-33dc6a89172c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="bitcoinqt.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinqt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinqt.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addressbookpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addresstablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="askpassphrasedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bantablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoin.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\bitcoin.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\bitcoin.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoin.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoin_locale.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinaddressvalidator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinamountfield.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\bitcoinamountfield.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\bitcoinamountfield.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinamountfield.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoingui.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bitcoinunits.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="callback.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="clientmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="coincontroldialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="coincontroltreewidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="csvmodelwriter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="editaddressdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="guiutil.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="intro.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\intro.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\intro.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="intro.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="macdockiconhandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="macnotificationhandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modaloverlay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="notificator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openuridialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="optionsmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="overviewpage.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\overviewpage.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\overviewpage.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="overviewpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paymentserver.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="peertablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qvalidatedlineedit.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qvaluecombobox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="receivecoinsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="receiverequestdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recentrequeststablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rpcconsole.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\rpcconsole.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\rpcconsole.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rpcconsole.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sendcoinsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sendcoinsentry.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="signverifymessagedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="splashscreen.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="trafficgraphwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transactiondesc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transactiondescdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transactionfilterproxy.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transactiontablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transactionview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilitydialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="walletframe.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="walletmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="walletview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_bitcoinqt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guiconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="networkstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paymentrequestplus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platformstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transactionrecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="walletmodeltransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winshutdownmonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icons\bitcoin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\address-book.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\send.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\connect0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\connect1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\connect2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\connect3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\connect4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\transaction0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\transaction2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\transaction_conflicted.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\clock1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\clock2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\clock3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\clock4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\clock5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\eye.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\eye_minus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\eye_plus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\configure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\receive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\edit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\history.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\overview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\export.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\synced.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\remove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\tx_mined.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\tx_input.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\tx_output.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\tx_inout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\lock_closed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\lock_open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\key.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\filesave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\debugwindow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\info.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\about.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\about_qt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\verify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\warning.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\fontbigger.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\fontsmaller.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\chevron.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\transaction_abandoned.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\hd_enabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\hd_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons\network_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-015.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-016.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-017.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-018.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-019.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-021.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-022.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-023.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-024.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-025.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-026.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-027.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-028.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-029.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-030.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-031.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-032.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-033.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-034.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\movies\spinner-035.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="locale\bitcoin_af.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_af_ZA.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ar.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_be_BY.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_bg_BG.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_bg.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ca_ES.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ca.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ca%40valencia.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_cs.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_cy.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_da.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_de.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_el_GR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_el.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_en_GB.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_en.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_eo.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_AR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_CL.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_CO.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_DO.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_ES.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_MX.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_UY.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_es_VE.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_et_EE.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_et.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_eu_ES.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fa_IR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fa.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fi.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fr_CA.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fr_FR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_fr.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_gl.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_he.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_hi_IN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_hr.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_hu.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_id_ID.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_it_IT.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_it.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ja.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ka.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_kk_KZ.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ko_KR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ku_IQ.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ky.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_la.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_lt.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_lv_LV.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_mk_MK.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_mn.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ms_MY.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_nb.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ne.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_nl.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_pam.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_pl.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_pt_BR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_pt_PT.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ro_RO.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ro.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ru_RU.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ru.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sk.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sl_SI.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sq.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sr%40latin.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sr.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_sv.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ta.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_th_TH.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_tr_TR.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_tr.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_uk.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_ur_PK.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_uz%40Cyrl.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_vi.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_vi_VN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_zh_HK.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_zh.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="locale\bitcoin_zh_TW.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

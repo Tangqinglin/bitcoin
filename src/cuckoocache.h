@@ -242,14 +242,14 @@ private:
      */
     inline std::array<uint32_t, 8> compute_hashes(const Element& e) const
     {
-        return {{(uint32_t)((hash_function.template operator()<0>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<1>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<2>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<3>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<4>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<5>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<6>(e) * (uint64_t)size) >> 32),
-                 (uint32_t)((hash_function.template operator()<7>(e) * (uint64_t)size) >> 32)}};
+        return {{(uint32_t)((hash_function.operator()<0>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<1>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<2>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<3>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<4>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<5>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<6>(e) * (uint64_t)size) >> 32),
+                 (uint32_t)((hash_function.operator()<7>(e) * (uint64_t)size) >> 32)}};
     }
 
     /* end

@@ -15,7 +15,7 @@
 #include <netbase.h>
 #include <rpc/blockchain.h>
 #include <rpc/server.h>
-#include <rpc/util.h>
+#include <rpc/util2.h>
 #include <timedata.h>
 #include <util.h>
 #include <utilstrencodings.h>

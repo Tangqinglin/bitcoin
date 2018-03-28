@@ -7,7 +7,7 @@
 #define BITCOIN_RPCSERVER_H
 
 #include <amount.h>
-#include <rpc/protocol.h>
+#include <rpc/protocol2.h>
 #include <uint256.h>
 
 #include <list>

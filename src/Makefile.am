@@ -130,7 +130,7 @@ BITCOIN_CORE_H = \
   rpc/blockchain.h \
   rpc/client.h \
   rpc/mining.h \
-  rpc/protocol.h \
+  rpc/protocol2.h \
   rpc/safemode.h \
   rpc/server.h \
   rpc/rawtransaction.h \

@@ -4,8 +4,8 @@
 
 #include <key_io.h>
 #include <keystore.h>
-#include <rpc/protocol.h>
-#include <rpc/util.h>
+#include <rpc/protocol2.h>
+#include <rpc/util2.h>
 #include <tinyformat.h>
 #include <utilstrencodings.h>
 

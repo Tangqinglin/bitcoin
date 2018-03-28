@@ -1,6 +1,6 @@
 #include <rpc/safemode.h>
 
-#include <rpc/protocol.h>
+#include <rpc/protocol2.h>
 #include <util.h>
 #include <warnings.h>
 
