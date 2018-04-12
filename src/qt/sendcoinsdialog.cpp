@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/sendcoinsdialog.h>
-#include <qt/forms/ui_sendcoinsdialog.h>
+#include <qt/GeneratedFiles/ui_sendcoinsdialog.h>
 
 #include <qt/addresstablemodel.h>
 #include <qt/bitcoinunits.h>
@@ -21,7 +21,7 @@
 #include <ui_interface.h>
 #include <txmempool.h>
 #include <policy/fees.h>
-#include <wallet/fees.h>
+#include <wallet/fees2.h>
 
 #include <QFontMetrics>
 #include <QScrollBar>

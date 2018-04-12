@@ -5,7 +5,7 @@
 #include <wallet/wallet.h>
 
 #include <qt/receivecoinsdialog.h>
-#include <qt/forms/ui_receivecoinsdialog.h>
+#include <qt/GeneratedFiles/ui_receivecoinsdialog.h>
 
 #include <qt/addressbookpage.h>
 #include <qt/addresstablemodel.h>

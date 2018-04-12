@@ -3,7 +3,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <wallet/init.h>
+#include <wallet/init2.h>
 
 #include <chainparams.h>
 #include <net.h>

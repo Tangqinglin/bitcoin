@@ -7,7 +7,7 @@
 #endif
 
 #include <qt/addressbookpage.h>
-#include <qt/forms/ui_addressbookpage.h>
+#include <qt/GeneratedFiles/ui_addressbookpage.h>
 
 #include <qt/addresstablemodel.h>
 #include <qt/bitcoingui.h>

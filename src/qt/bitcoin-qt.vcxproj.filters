@@ -1,440 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="bitcoinqt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinqt.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinqt.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_bitcoinqt.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="addressbookpage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_addressbookpage.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_addressbookpage.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="addresstablemodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_addresstablemodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_addresstablemodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="askpassphrasedialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_askpassphrasedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_askpassphrasedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="bantablemodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bantablemodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bantablemodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_bitcoin.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_bitcoin_locale.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bitcoinaddressvalidator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinaddressvalidator.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinaddressvalidator.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinamountfield.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinamountfield.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="bitcoingui.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoingui.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bitcoingui.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="bitcoinstrings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bitcoinunits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_bitcoinunits.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_bitcoinunits.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_callback.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_callback.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="clientmodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_clientmodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_clientmodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="coincontroldialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_coincontroldialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_coincontroldialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="coincontroltreewidget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_coincontroltreewidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_coincontroltreewidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="csvmodelwriter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_csvmodelwriter.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_csvmodelwriter.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="editaddressdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_editaddressdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_editaddressdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="guiutil.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_guiutil.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_guiutil.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_intro.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_intro.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_macdockiconhandler.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_macdockiconhandler.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_macnotificationhandler.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_macnotificationhandler.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="modaloverlay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_modaloverlay.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_modaloverlay.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="networkstyle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="notificator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_notificator.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_notificator.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="openuridialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_openuridialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_openuridialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="optionsdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_optionsdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_optionsdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="optionsmodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_optionsmodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_optionsmodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_overviewpage.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_overviewpage.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="paymentrequestplus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="paymentserver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_paymentserver.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_paymentserver.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="peertablemodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_peertablemodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_peertablemodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="platformstyle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="qvalidatedlineedit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_qvalidatedlineedit.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_qvalidatedlineedit.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="qvaluecombobox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_qvaluecombobox.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_qvaluecombobox.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="receivecoinsdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_receivecoinsdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_receivecoinsdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="receiverequestdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_receiverequestdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_receiverequestdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="recentrequeststablemodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_recentrequeststablemodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_recentrequeststablemodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_rpcconsole.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_rpcconsole.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="sendcoinsdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_sendcoinsdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_sendcoinsdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="sendcoinsentry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_sendcoinsentry.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_sendcoinsentry.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="signverifymessagedialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_signverifymessagedialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_signverifymessagedialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="splashscreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_splashscreen.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_splashscreen.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="trafficgraphwidget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_trafficgraphwidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_trafficgraphwidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="transactiondesc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_transactiondesc.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_transactiondesc.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="transactiondescdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_transactiondescdialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_transactiondescdialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="transactionfilterproxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_transactionfilterproxy.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_transactionfilterproxy.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="transactionrecord.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="transactiontablemodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_transactiontablemodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_transactiontablemodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="transactionview.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_transactionview.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_transactionview.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="utilitydialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_utilitydialog.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_utilitydialog.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="walletframe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_walletframe.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_walletframe.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="walletmodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_walletmodel.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_walletmodel.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="walletmodeltransaction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="walletview.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_walletview.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_walletview.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="winshutdownmonitor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
       <Extensions>qrc;*</Extensions>
@@ -450,235 +16,226 @@
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
       <ParseFiles>true</ParseFiles>
     </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>moc;h;cpp</Extensions>
-      <ParseFiles>true</ParseFiles>
-    </Filter>
-    <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{440bb8de-42bb-4d27-961f-67291edef4ed}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
-    <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{ca08b1b2-eb24-4311-ba8a-33dc6a89172c}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
     <Filter Include="Form Files">
       <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
       <Extensions>ui</Extensions>
       <ParseFiles>true</ParseFiles>
     </Filter>
+    <Filter Include="upsrc">
+      <UniqueIdentifier>{f0cb10a8-3950-44d4-b2cb-5e296a1ed672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wallet">
+      <UniqueIdentifier>{6cb5ba0f-26ba-46fa-820f-31292e297add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="univalue">
+      <UniqueIdentifier>{e3eaa9c3-bc8a-44b6-b176-b0c6920bfa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="univalue\lib">
+      <UniqueIdentifier>{1283887e-78d3-4d22-8737-180959883a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{21a54914-000a-456f-9a8c-9e87264eb027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secp256k1">
+      <UniqueIdentifier>{5385d3f3-c5ae-4901-8024-a991edf58d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secp256k1\src">
+      <UniqueIdentifier>{5a1edac0-ccb8-4222-bd34-5e3da29ca3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secp256k1\src\modules">
+      <UniqueIdentifier>{1bd59fc6-20b8-4341-9148-ba1841eef35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secp256k1\src\modules\recovery">
+      <UniqueIdentifier>{d940e48b-f33c-47b6-9d6d-acc6cb392000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{731f2bcf-5dc3-4f38-b6a2-0d6b0729e1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives">
+      <UniqueIdentifier>{bb648699-94f7-46ef-a216-a72893356f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{9405c0b3-e94e-49da-b4ad-27eee08b402f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat">
+      <UniqueIdentifier>{92e86d11-dc66-4ba9-b3b0-1a99466583a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="consensus">
+      <UniqueIdentifier>{52b861e2-4e20-4d21-a99b-3d5e86276147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="policy">
+      <UniqueIdentifier>{7349bcfa-fd6f-4052-97c0-20e14483a89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{3e434800-2ce4-4864-8b58-ff53edfffb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{49150677-1731-48ca-a47b-e01fd7590661}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="bitcoinqt.h">
+    <QtMoc Include="addressbookpage.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinqt.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinqt.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="addressbookpage.h">
+    </QtMoc>
+    <QtMoc Include="addresstablemodel.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="addresstablemodel.h">
+    </QtMoc>
+    <QtMoc Include="askpassphrasedialog.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="askpassphrasedialog.h">
+    </QtMoc>
+    <QtMoc Include="bantablemodel.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bantablemodel.h">
+    </QtMoc>
+    <QtMoc Include="bitcoinaddressvalidator.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoin.cpp">
+    </QtMoc>
+    <QtMoc Include="bitcoinamountfield.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bitcoingui.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bitcoinunits.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="callback.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="clientmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="coincontroldialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="coincontroltreewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="csvmodelwriter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="editaddressdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="guiutil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="intro.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="macdockiconhandler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="macnotificationhandler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="modaloverlay.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="notificator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="openuridialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="optionsmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="overviewpage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="paymentserver.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="peertablemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qvalidatedlineedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qvaluecombobox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="receivecoinsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="receiverequestdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="recentrequeststablemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="rpcconsole.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sendcoinsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sendcoinsentry.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="signverifymessagedialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="splashscreen.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="trafficgraphwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="transactiondesc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="transactiondescdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="transactionfilterproxy.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="transactiontablemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="transactionview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="utilitydialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="walletframe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="walletmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="walletview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bitcoin.cpp">
       <Filter>Source Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Debug\bitcoin.moc">
-      <Filter>Generated Files\Debug</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Release\bitcoin.moc">
-      <Filter>Generated Files\Release</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoin.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoin_locale.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinaddressvalidator.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinamountfield.cpp">
+    </QtMoc>
+    <QtMoc Include="bitcoinamountfield.cpp">
       <Filter>Source Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Debug\bitcoinamountfield.moc">
-      <Filter>Generated Files\Debug</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Release\bitcoinamountfield.moc">
-      <Filter>Generated Files\Release</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinamountfield.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoingui.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="bitcoinunits.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="callback.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="clientmodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="coincontroldialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="coincontroltreewidget.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="csvmodelwriter.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="editaddressdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="guiutil.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="intro.cpp">
+    </QtMoc>
+    <QtMoc Include="rpcconsole.cpp">
       <Filter>Source Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Debug\intro.moc">
-      <Filter>Generated Files\Debug</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Release\intro.moc">
-      <Filter>Generated Files\Release</Filter>
-    </CustomBuild>
-    <CustomBuild Include="intro.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="macdockiconhandler.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="macnotificationhandler.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="modaloverlay.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="notificator.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="openuridialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="optionsdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="optionsmodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="overviewpage.cpp">
+    </QtMoc>
+    <QtMoc Include="overviewpage.cpp">
       <Filter>Source Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Debug\overviewpage.moc">
-      <Filter>Generated Files\Debug</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Release\overviewpage.moc">
-      <Filter>Generated Files\Release</Filter>
-    </CustomBuild>
-    <CustomBuild Include="overviewpage.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="paymentserver.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="peertablemodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="qvalidatedlineedit.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="qvaluecombobox.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="receivecoinsdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="receiverequestdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="recentrequeststablemodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="rpcconsole.cpp">
+    </QtMoc>
+    <QtMoc Include="intro.cpp">
       <Filter>Source Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Debug\rpcconsole.moc">
-      <Filter>Generated Files\Debug</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\Release\rpcconsole.moc">
-      <Filter>Generated Files\Release</Filter>
-    </CustomBuild>
-    <CustomBuild Include="rpcconsole.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="sendcoinsdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="sendcoinsentry.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="signverifymessagedialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="splashscreen.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="trafficgraphwidget.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="transactiondesc.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="transactiondescdialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="transactionfilterproxy.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="transactiontablemodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="transactionview.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="utilitydialog.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="walletframe.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="walletmodel.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="walletview.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_bitcoinqt.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="guiconstants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="networkstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paymentrequest.pb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="paymentrequestplus.h">
@@ -696,6 +253,1021 @@
     <ClInclude Include="winshutdownmonitor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\addrdb.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\addrman.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\amount.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\arith_uint256.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base58.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bech32.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blockencodings.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bloom.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chain.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chainparams.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chainparamsbase.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chainparamsseeds.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\checkpoints.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\checkqueue.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clientversion.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\coins.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\compat.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\compressor.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core_io.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core_memusage.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cuckoocache.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fs.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hash.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\httprpc.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\httpserver.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\indirectmap.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\init.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\key.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\key_io.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\keystore.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\limitedmap.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memusage.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\merkleblock.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\miner.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_processing.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\netaddress.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\netbase.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\netmessagemaker.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\noui.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pow.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\prevector.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pubkey.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\random.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reverse_iterator.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reverselock.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scheduler.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\serialize.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\streams.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\threadinterrupt.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\threadsafety.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\timedata.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tinyformat.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\torcontrol.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\txdb.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\txmempool.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ui_interface.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uint256.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\undo.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utilmoneystr.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utilstrencodings.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utiltime.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\validation.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\validationinterface.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\version.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\versionbits.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\warnings.h">
+      <Filter>upsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\coincontrol.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\coinselection.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\crypter.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\db.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\feebumper.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\rpcwallet.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\wallet.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\walletdb.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\walletutil.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\univalue\lib\univalue_escapes.h">
+      <Filter>univalue\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\univalue\lib\univalue_utffilter.h">
+      <Filter>univalue\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\blockchain.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\client.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\mining.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\protocol2.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\rawtransaction.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\register.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\safemode.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\server.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rpc\util2.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecdsa.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecdsa_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\eckey.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\eckey_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult_const.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult_const_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult_gen.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult_gen_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\ecmult_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_10x26.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_10x26_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_5x52.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_5x52_asm_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_5x52_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_5x52_int128_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\field_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\group.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\group_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\hash.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\hash_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\libsecp256k1-config.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\num.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\num_gmp.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\num_gmp_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\num_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_4x64.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_4x64_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_8x32.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_8x32_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_low.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\scalar_low_impl.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\util.h">
+      <Filter>secp256k1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\secp256k1\src\modules\recovery\main_impl.h">
+      <Filter>secp256k1\src\modules\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\aes.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\chacha20.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\common.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\hmac_sha256.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\hmac_sha512.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\ripemd160.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\sha1.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\sha256.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\crypto\sha512.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primitives\block.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primitives\transaction.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\cleanse.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\events.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\lockedpool.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\compat\byteswap.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\compat\endian.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\compat\sanity.h">
+      <Filter>compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\consensus\consensus.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\consensus\merkle.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\consensus\params.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\consensus\tx_verify.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\consensus\validation.h">
+      <Filter>consensus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\policy\feerate.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\policy\fees.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\policy\policy.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\policy\rbf.h">
+      <Filter>policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\init2.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wallet\fees2.h">
+      <Filter>wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\bitcoinconsensus.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\interpreter.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\ismine.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\script.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\script_error.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\sigcache.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\sign.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\script\standard.h">
+      <Filter>script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addressbookpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addresstablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="askpassphrasedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bantablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinaddressvalidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoingui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinstrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitcoinunits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clientmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coincontroldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coincontroltreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csvmodelwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editaddressdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guiutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modaloverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="networkstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="notificator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openuridialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optionsmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentrequest.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentrequestplus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paymentserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="peertablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="platformstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qvalidatedlineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qvaluecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receivecoinsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receiverequestdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recentrequeststablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sendcoinsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sendcoinsentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="signverifymessagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splashscreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trafficgraphwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiondesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiondescdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionfilterproxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionrecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactiontablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilitydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="walletframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="walletmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="walletmodeltransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="walletview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winshutdownmonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\addrdb.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\addrman.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\arith_uint256.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base58.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bech32.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blockencodings.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bloom.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chain.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chainparams.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chainparamsbase.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\checkpoints.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clientversion.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\coins.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\compressor.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core_read.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core_write.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fs.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hash.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\init.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\key_io.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\keystore.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\merkleblock.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\miner.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net_processing.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\netaddress.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\netbase.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\noui.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pow.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protocol.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\random.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rest.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scheduler.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sync.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threadinterrupt.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\timedata.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\txdb.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\txmempool.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uint256.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utilmoneystr.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utilstrencodings.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\validation.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\validationinterface.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\versionbits.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\warnings.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui_interface.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\coinselection.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\crypter.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\db.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\feebumper.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\rpcdump.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\rpcwallet.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\wallet.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\walletdb.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\walletutil.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utiltime.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\univalue\lib\univalue.cpp">
+      <Filter>univalue\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\univalue\lib\univalue_get.cpp">
+      <Filter>univalue\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\univalue\lib\univalue_read.cpp">
+      <Filter>univalue\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\univalue\lib\univalue_write.cpp">
+      <Filter>univalue\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\blockchain.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\client.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\mining.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\misc.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\net2.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\protocol2.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\rawtransaction.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\safemode.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\server.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rpc\util2.cpp">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\key.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\secp256k1\src\secp256k1.c">
+      <Filter>secp256k1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\aes.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\chacha20.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\hmac_sha256.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\hmac_sha512.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\ripemd160.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\sha1.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\sha256.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\sha256_sse4.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\crypto\sha512.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primitives\block.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primitives\transaction.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\cleanse.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\lockedpool.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\compat\glibcxx_sanity.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\compat\glibc_sanity.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\compat\strnlen.cpp">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\consensus\merkle.cpp">
+      <Filter>consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\consensus\tx_verify.cpp">
+      <Filter>consensus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\policy\feerate.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\policy\fees.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\policy\policy.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\policy\rbf.cpp">
+      <Filter>policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\init2.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wallet\fees2.cpp">
+      <Filter>wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\bitcoinconsensus.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\interpreter.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\ismine.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\script.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\script_error.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\sigcache.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\sign.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\script\standard.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\httprpc.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\httpserver.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pubkey.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\torcontrol.cpp">
+      <Filter>upsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dbwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="forms\addressbookpage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\askpassphrasedialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\coincontroldialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\debugwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\editaddressdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\helpmessagedialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\intro.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\modaloverlay.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\openuridialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\optionsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\overviewpage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\receivecoinsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\receiverequestdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\sendcoinsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\sendcoinsentry.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\signverifymessagedialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\transactiondescdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\icons\bitcoin.png">
@@ -965,6 +1537,11 @@
     <Image Include="res\movies\spinner-035.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="bitcoin.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
   <ItemGroup>
     <None Include="locale\bitcoin_af.qm">

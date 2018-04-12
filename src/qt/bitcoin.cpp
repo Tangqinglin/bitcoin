@@ -259,8 +259,11 @@ private:
 
     void startThread();
 };
-
-#include <qt/bitcoin.moc>
+#ifndef QT_NO_DEBUG
+#include <qt/GeneratedFiles/Debug/bitcoin.moc>
+#else
+#include <qt/GeneratedFiles/Release/bitcoin.moc>
+#endif 
 
 BitcoinCore::BitcoinCore():
     QObject()
@@ -561,7 +564,7 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(bitcoin);
-    Q_INIT_RESOURCE(bitcoin_locale);
+    //Q_INIT_RESOURCE(bitcoin_locale);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100

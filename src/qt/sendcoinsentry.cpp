@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/sendcoinsentry.h>
-#include <qt/forms/ui_sendcoinsentry.h>
+#include <qt/GeneratedFiles/ui_sendcoinsentry.h>
 
 #include <qt/addressbookpage.h>
 #include <qt/addresstablemodel.h>

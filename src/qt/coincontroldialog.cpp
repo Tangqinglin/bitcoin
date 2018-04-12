@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/coincontroldialog.h>
-#include <qt/forms/ui_coincontroldialog.h>
+#include <qt/GeneratedFiles/ui_coincontroldialog.h>
 
 #include <qt/addresstablemodel.h>
 #include <qt/bitcoinunits.h>
@@ -19,7 +19,7 @@
 #include <policy/fees.h>
 #include <policy/policy.h>
 #include <validation.h> // For mempool
-#include <wallet/fees.h>
+#include <wallet/fees2.h>
 #include <wallet/wallet.h>
 
 #include <QApplication>

@@ -5,7 +5,7 @@
 #include "leveldb/filter_policy.h"
 
 #include "leveldb/slice.h"
-#include "util/hash2.h"
+#include "util/hash.h"
 
 namespace leveldb {
 

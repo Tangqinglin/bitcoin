@@ -12,7 +12,7 @@
 #include <consensus/consensus.h>
 #include <consensus/validation.h>
 #include <fs.h>
-#include <wallet/init.h>
+#include <wallet/init2.h>
 #include <key.h>
 #include <key_io.h>
 #include <keystore.h>
@@ -29,7 +29,7 @@
 #include <txmempool.h>
 #include <util.h>
 #include <utilmoneystr.h>
-#include <wallet/fees.h>
+#include <wallet/fees2.h>
 
 #include <assert.h>
 #include <future>

@@ -188,7 +188,11 @@ Q_SIGNALS:
     void valueChanged();
 };
 
-#include <qt/bitcoinamountfield.moc>
+#ifndef QT_NO_DEBUG
+#include <qt/GeneratedFiles/Debug/bitcoinamountfield.moc>
+#else
+#include <qt/GeneratedFiles/Release/bitcoinamountfield.moc>
+#endif 
 
 BitcoinAmountField::BitcoinAmountField(QWidget *parent) :
     QWidget(parent),

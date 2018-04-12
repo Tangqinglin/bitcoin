@@ -5,7 +5,7 @@
 #include <consensus/validation.h>
 #include <wallet/coincontrol.h>
 #include <wallet/feebumper.h>
-#include <wallet/fees.h>
+#include <wallet/fees2.h>
 #include <wallet/wallet.h>
 #include <policy/fees.h>
 #include <policy/policy.h>

@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/transactiondescdialog.h>
-#include <qt/forms/ui_transactiondescdialog.h>
+#include <qt/GeneratedFiles/ui_transactiondescdialog.h>
 
 #include <qt/transactiontablemodel.h>
 
